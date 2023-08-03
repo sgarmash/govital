@@ -1,2 +1,0 @@
-# govital
-Test task
