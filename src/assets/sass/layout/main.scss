@@ -1,0 +1,33 @@
+/*------------------*
+# Main Content
+*------------------*/
+
+
+.main {
+	&__content {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 100vh;
+		padding: 15px;
+	}
+}
+
+.primary {
+	&__title {
+		margin-bottom: 16px;
+		font-family: 'Raleway', sans-serif;
+		font-size: 24px;
+		font-weight: 600;
+		text-align: center;
+	}
+	&__paragraph {
+		max-width: 770px;
+		margin: 0 auto;
+		margin-bottom: 38px;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: calc(24 / 16);
+		text-align: center;
+	}
+}

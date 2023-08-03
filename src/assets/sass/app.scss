@@ -1,0 +1,16 @@
+// Normalise
+@import "./vendor/normalise";
+
+// Base style with project
+@import './utils/variables.scss';
+@import './base/base.scss';
+@import './base/container.scss';
+
+// Main style with project
+@import './layout/main.scss';
+
+@import './components/form.scss';
+@import './components/buttons.scss';
+@import './components/icons.scss';
+@import './components/tabs.scss';
+@import './components/tooltip.scss';
